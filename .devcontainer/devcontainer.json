@@ -1,0 +1,7 @@
+{
+  "name": "jdk-17 with Android SDK",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  }
+}
