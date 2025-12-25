@@ -1,5 +1,5 @@
 {
-  "name": "jdk-17 with Android SDK",
+  "name": "Expo Android build ENV",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
