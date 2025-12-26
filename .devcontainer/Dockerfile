@@ -23,7 +23,7 @@ RUN curl -fsSL ${CMDLINE_TOOLS_URL} -o /tmp/${CMDLINE_TOOLS_ZIP} \
 RUN yes | sdkmanager --licenses
 
 # Make Android SDK root writable
-RUN chown -R $USER:$USER ${ANDROID_SKD_ROOT}
+RUN chown -R $USER:$USER ${ANDROID_SDK_ROOT}
 
 WORKDIR /workspace
 
