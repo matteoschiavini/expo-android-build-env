@@ -1,4 +1,4 @@
-# Retrieve both Node.js and JDK versions from devcontainer.json
+# Retrieve Node.js, JDK and Android Build Tools versions
 ARG NODE_VERSION
 ARG JDK_VERSION
 ARG BUILD_TOOLS_VERSION
