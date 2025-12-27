@@ -2,6 +2,11 @@
   "name": "Expo Android build ENV",
   "build": {
     "dockerfile": "Dockerfile",
-    "context": ".."
+    "context": "..",
+    "args": {
+      "NODE_VERSION": "22",
+      "JDK_VERSION": "17",
+      "BUILD_TOOLS_VERSION": "35"
+    }
   }
 }
